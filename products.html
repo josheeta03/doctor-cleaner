@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Products | Doctor Cleaner</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="stylesheet"
+href="css/responsive.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<div class="logo">
+
+<img src="images/logo.jpeg">
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- ================= BREADCRUMB ================= -->
+
+<section class="breadcrumb">
+
+    <div class="container">
+
+        <a href="index.html">
+
+            Home
+
+        </a>
+
+        <span>
+
+            <i class="fa-solid fa-angle-right"></i>
+
+        </span>
+
+        <span>
+
+            Products
+
+        </span>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTS HERO -->
+
+<section class="products-hero">
+
+<div class="container">
+
+<h1>Our Products</h1>
+
+<p>
+
+Premium cleaning solutions for homes,
+offices, hotels, hospitals and industries.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SEARCH -->
+
+<section class="search-section">
+
+<div class="container">
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search products...">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FILTERS ================= -->
+
+<section class="filter-section">
+
+    <div class="container">
+
+        <div class="products-toolbar">
+
+            <div class="filters">
+
+                <button class="filter-btn active" data-filter="all">All</button>
+
+                <button class="filter-btn" data-filter="toilet">Toilet Cleaner</button>
+
+                <button class="filter-btn" data-filter="floor">Floor Cleaner</button>
+
+                <button class="filter-btn" data-filter="phenyl">Phenyl</button>
+
+                <button class="filter-btn" data-filter="dishwash">Dish Wash</button>
+
+                <button class="filter-btn" data-filter="handwash">Hand Wash</button>
+
+                <button class="filter-btn" data-filter="glass">Glass Cleaner</button>
+
+                <button class="filter-btn" data-filter="acid">Acid Cleaner</button>
+
+            </div>
+
+            <div class="sort-box">
+
+                <select id="sortProducts">
+
+                    <option value="default">Sort Products</option>
+
+                    <option value="az">Name (A-Z)</option>
+
+                    <option value="za">Name (Z-A)</option>
+
+                    <option value="rating">Highest Rating</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PRODUCT GRID ================= -->
+
+<section class="products-section">
+
+<div class="container">
+
+<div class="products-grid">
+
+<!-- ===================================================== -->
+<!-- TOILET CLEANER -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="toilet"
+data-name="Doctor Toilet Cleaner"
+data-rating="4.9">
+
+<span class="product-tag new">
+NEW
+</span>
+
+<div class="product-image">
+
+<img src="images/products/toiletcleaner.jpeg"
+alt="Toilet Cleaner">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Toilet Cleaner</h3>
+
+<p>
+
+Removes stubborn stains,
+kills germs and leaves a refreshing fragrance.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.9)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>500 ml</span>
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-toilet.html" class="product-btn">
+    View Details
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- FLOOR CLEANER -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="floor"
+data-name="Doctor Floor Cleaner"
+data-rating="5.0">
+
+<span class="product-tag bestseller">
+
+BEST SELLER
+
+</span>
+
+<div class="product-image">
+
+<img src="images/products/floorcleaner.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Floor Cleaner</h3>
+
+<p>
+
+Suitable for homes,
+hotels,
+offices and hospitals.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(5.0)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>500 ml</span>
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-floor.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- DISH WASH -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="dishwash"
+data-name="Doctor Dish Wash Liquid"
+data-rating="4.8">
+
+<span class="product-tag popular">
+
+POPULAR
+
+</span>
+
+<div class="product-image">
+
+<img src="images/products/dishwashliquid.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Dish Wash Liquid</h3>
+
+<p>
+
+Powerful grease remover
+that keeps utensils sparkling clean.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.8)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>500 ml</span>
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-dishwash.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- HAND WASH -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="handwash"
+data-name="Doctor Hand Wash"
+data-rating="4.8">
+
+<div class="product-image">
+
+<img src="images/products/handwash.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Hand Wash</h3>
+
+<p>
+
+Gentle on hands while effectively removing germs and bacteria.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.8)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>250 ml</span>
+
+<span>500 ml</span>
+
+<span>5 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-handwash.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- WHITE PHENYL -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="phenyl"
+data-name="Doctor White Phenyl"
+data-rating="4.7">
+
+<div class="product-image">
+
+<img src="images/products/phenyl.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor White Phenyl</h3>
+
+<p>
+
+Provides hygienic cleaning with a pleasant long-lasting fragrance.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.7)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>500 ml</span>
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-whitephenyl.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- BLACK PHENYL -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="phenyl"
+data-name="Doctor Black Phenyl"
+data-rating="4.7">
+
+<div class="product-image">
+
+<img src="images/products/blackphenyl.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Black Phenyl</h3>
+
+<p>
+
+Heavy-duty disinfectant ideal for commercial cleaning applications.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.7)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+<span>20 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-blackphenyl.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- GLASS CLEANER -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="glass"
+data-name="Doctor Glass Cleaner"
+data-rating="4.9">
+
+<div class="product-image">
+
+<img src="images/products/glasscleaner.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Glass Cleaner</h3>
+
+<p>
+
+Leaves mirrors and glass surfaces crystal clear without streaks.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.9)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>500 ml</span>
+
+<span>1 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-glass.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- ACID CLEANER -->
+<!-- ===================================================== -->
+
+<div class="product-card"
+data-category="acid"
+data-name="Doctor Acid Cleaner"
+data-rating="4.6">
+
+<div class="product-image">
+
+<img src="images/products/acid.jpeg">
+
+</div>
+
+<div class="product-content">
+
+<h3>Doctor Acid Cleaner</h3>
+
+<p>
+
+Removes hard water stains,
+cement residue and tough deposits.
+
+</p>
+
+<div class="rating">
+
+★★★★★
+
+<span>(4.6)</span>
+
+</div>
+
+<div class="sizes">
+
+<span>1 L</span>
+
+<span>5 L</span>
+
+<span>20 L</span>
+
+</div>
+
+<div class="product-buttons">
+
+<a href="productsdetails-acid.html" class="product-btn">
+    View Details
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="product-cta">
+
+<div class="container">
+
+<h2>
+
+Looking for Bulk Orders?
+
+</h2>
+
+<p>
+
+We supply cleaning products to
+
+Hotels
+
+Hospitals
+
+Schools
+
+Factories
+
+Distributors
+
+Retailers
+
+Across India.
+
+</p>
+
+<div>
+
+<a href="contact.html#quote-form" class="btn">
+    Request a Quote
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Doctor Cleaner.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+<script src="js/script.js"></script>
+
+<a
+href="https://wa.me/917488641206"
+
+class="floating-whatsapp"
+
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+</body>
+
+</html>
