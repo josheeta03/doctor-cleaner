@@ -208,3 +208,54 @@ document.addEventListener("DOMContentLoaded", function () {
     document.title = product.title + " | Brand Doctor Cleaner";
 
 });
+
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+
+// ===== Mobile Navigation =====
+
+const menuBtn = document.querySelector(".menu-toggle");
+const navbar = document.querySelector(".navbar");
+
+if (menuBtn && navbar) {
+
+    menuBtn.addEventListener("click", () => {
+
+        navbar.classList.toggle("show");
+
+        const icon = menuBtn.querySelector("i");
+
+        if (navbar.classList.contains("show")) {
+
+            icon.classList.remove("fa-bars");
+            icon.classList.add("fa-xmark");
+
+        } else {
+
+            icon.classList.remove("fa-xmark");
+            icon.classList.add("fa-bars");
+
+        }
+
+    });
+
+    document.querySelectorAll(".navbar a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            navbar.classList.remove("show");
+
+            const icon = menuBtn.querySelector("i");
+
+            icon.classList.remove("fa-xmark");
+            icon.classList.add("fa-bars");
+
+        });
+
+    });
+
+}
