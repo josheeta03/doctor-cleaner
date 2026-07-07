@@ -40,6 +40,12 @@ overflow-x:hidden;
 
 }
 
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
 .container{
 
 width:90%;
@@ -529,6 +535,8 @@ align-items:center;
 
 gap:60px;
 
+flex-wrap:wrap;
+
 }
 
 .hero-left{
@@ -567,7 +575,7 @@ margin-bottom:20px;
 
 .hero-left h1{
 
-font-size:64px;
+font-size:clamp(2.4rem,6vw,4rem);
 
 font-weight:700;
 
